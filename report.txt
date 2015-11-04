@@ -1,0 +1,5 @@
+1. Use the command grep (ignoring case) in the command line to filter the records that contain "Star Trek" in the complete dataset, wikidata-20150907-all.json (18,515,866 records). Create the new dataset, wikidata-20150907-star_trek.json (1,628 records).
+2. Extract all the types and relationships from the Star Trek dataset (and their descriptions via API). Store them in two dictionaries whose keys are the ids ("Qxxx" or "Pxxx") and the values are their descriptions (labels).
+3. Manually, select only the relevant types and relationships from the abovementioned dictionaries.
+4. Filter the records that contain at least one of the relevant relationships. For every selected record, remove the non-relevant relationships and get only the English values for descriptions, labels, aliases, and sitelinks. Store the result in a new dataset, wikidata-20150907-star_trek-relevant-rels.json (1,427 records).
+4. 
